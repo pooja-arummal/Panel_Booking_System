@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "ITC Benguiat Condensed";
+  src: url("./assets/fonts/ITCBenguiatCondensed.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* .my-text {
+  font-family: "ITC Benguiat Condensed", sans-serif;
+} */
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    font-size: 3em;
+    color: black;
+    /* font-family: "ITC Benguiat Condensed", sans-serif; */
+    border-bottom:3px solid black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dash{
+    /* display: flex; */
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 100%;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.options{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: #e4dcf9;
+    border-radius: 1.5em;
+}
+
+.block{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
