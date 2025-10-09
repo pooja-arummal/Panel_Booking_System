@@ -1,0 +1,67 @@
+
+
+.dashboard {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: #f6f6ff; */
+  min-height: 100vh;
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 55px;
+  font-weight: 600;
+  color: #3a2e7a;
+  margin-bottom: 25px;
+  border-bottom: 2px solid black;
+  
+}
+
+.dash {
+  font-size: 30px;
+  color: #414141;
+  text-align: left;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+.block {
+  display: flex;
+  justify-content: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  max-width: 50%;
+}
+
+.options {
+  background-color: #e3dbfa;
+  color: #201f1f;
+  padding: 25px 25px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px auto;
+  width: 220px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.options:hover {
+  background-color: #d3c4fa;
+  transform: scale(1.05);
+}
+
+.options:active {
+  transform: scale(0.97);
+  background-color: #c0aef5;
+}
+
+.Image img {
+  width: 300px;            /* Resize image */
+  height: auto;            /* Maintain aspect ratio */
+  border-radius: 20px;     /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth hover effect */
+}
