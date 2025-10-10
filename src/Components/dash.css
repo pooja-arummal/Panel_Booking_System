@@ -18,7 +18,7 @@
 }
 
 .dash {
-  font-size: 30px;
+  font-size: 40px;
   color: #414141;
   text-align: left;
   margin-bottom: 50px;
@@ -31,6 +31,7 @@
   gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 25px;
+  margin-right: 200px;
   max-width: 50%;
 }
 
@@ -59,9 +60,14 @@
 }
 
 .Image img {
-  width: 300px;            /* Resize image */
-  height: auto;            /* Maintain aspect ratio */
+  width: 400px;            /* Resize image */
+  height: 350px;            /* Maintain aspect ratio */
   border-radius: 20px;     /* Rounded corners */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
   transition: transform 0.3s ease, filter 0.3s ease; /* Smooth hover effect */
+}
+
+.content{
+  display: flex;
+  
 }

@@ -1,0 +1,26 @@
+.table{
+    /* display:flex; */
+    /* max-margin : 50%; */
+    margin-bottom: 20px;
+    margin-left : 20px;
+    margin-top : 20px;
+}
+
+.guide{
+    display: flex;
+}
+
+.col1{
+    min-width: 10rem;
+    border: 2px solid black;
+     border-right: none; 
+     text-align: center;
+     
+}
+.col2{
+    min-width: 15rem;
+    border: 2px solid black;
+    /* border-top: none; */
+    text-align: center;
+
+}
