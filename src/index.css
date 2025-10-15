@@ -75,9 +75,12 @@ button:focus-visible {
   font-optical-sizing: auto;
   font-weight: 2px;
   font-style: normal;
-  background-color: #c1cede;
+
 }
 
+html{
+    background-color: #c1cede;
+}
 
 .playfair-display {
   font-family: "Playfair Display", serif;

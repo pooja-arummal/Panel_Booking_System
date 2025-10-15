@@ -8,6 +8,13 @@ const DashBoard = () =>{
         <div className="heading">Welcome to Panel Hub
 
         </div>
+        <div className="Icons"> 
+          <div className="Logoption">Login</div>
+          <div className="Signoption">Sign up</div>
+        </div>
+
+        <div className="border1"></div>
+      
       
         <div className="dash">DashBoard</div>
         <div className="content">

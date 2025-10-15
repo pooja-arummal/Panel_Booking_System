@@ -5,14 +5,20 @@ import './App.css'
 import Button from './Components/button'
 import DashBoard from './Components/dashboard'
 import Student from './Components/SGList'
+import Login from './Components/Login'
+import Registration from './Components/register'
+// import Gregistration from './Components/gregister'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <DashBoard/>
+      {/* <DashBoard/> */}
       {/* <Student/> */}
+      {/* <Login/> */}
+      <Registration/>
+      {/* <Gregistration/> */}
     </>
   )
 }

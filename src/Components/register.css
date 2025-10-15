@@ -1,0 +1,127 @@
+/* Full-page container */
+.registration-form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* aligns towards top instead of center */
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  font-family: "Poppins", sans-serif;
+  padding-top: 60px; /* small gap from top */
+  /* margin-bottom: 25px; */
+}
+
+/* Registration box */
+.box {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 35px 40px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+  width: 500px; /* reduced width */
+  margin-top: 0%;
+  justify-content: center;
+}
+
+/* Form layout */
+.regform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Labels */
+.regform label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 14px;
+  color: #333;
+}
+
+/* Input boxes */
+.regform input {
+  margin-top: 6px;
+  padding: 9px 10px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+/* Focus effect */
+.regform input:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 4px rgba(25, 118, 210, 0.4);
+}
+
+/* Submit button */
+.submit-btn {
+  margin-top: 25px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 11px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.submit-btn:hover {
+  background: #1565c0;
+  box-shadow: 0 4px 12px rgba(21, 101, 192, 0.3);
+}
+
+/* .form-heading {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 20px;
+} */
+
+.form-heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;      /* centers the heading */
+  font-size: 24px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;     /* space below heading before form */
+  display: flex;
+  
+}
+
+.signin-option {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.regform > label{
+  text-align: left;
+}
+.signin-link {
+  color: #1976d2;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+  color: #0d47a1;
+}
+
+/* Responsive layout */
+@media (max-width: 450px) {
+  .box {
+    width: 85%;
+    padding: 30px;
+  }
+}
+

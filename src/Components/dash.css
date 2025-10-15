@@ -12,8 +12,8 @@
   font-size: 55px;
   font-weight: 600;
   color: #3a2e7a;
-  margin-bottom: 25px;
-  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+  /* border-bottom: 2px solid black; */
   
 }
 
@@ -22,7 +22,25 @@
   color: #414141;
   text-align: left;
   margin-bottom: 50px;
-  font-weight: 500;
+  font-weight: 500;  
+  margin-top: 20px;
+}
+
+.border1{
+  border-top: 2px solid black;
+}
+
+.Icons{
+  display: flex;
+  margin-left: 90%;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #3a2e7a;
+   /* border-bottom: 2px solid black; */
+}
+
+.Logoption{
+  margin-right: 45px;
 }
 
 .block {

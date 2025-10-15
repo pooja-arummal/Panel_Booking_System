@@ -1,0 +1,154 @@
+/* .box{
+    
+    margin-top : 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    height: 100%;
+    width : 100%;
+}
+
+.boxheading{
+   text-align: center;
+}
+
+.login-form{
+    height: 30rem;
+    width: 30rem;
+    background-color: #FFEAEA;
+    display: flex;
+    flex-direction: column;
+
+} */
+
+/* .parent{
+    padding: 1rem;
+    margin: .5rem;
+   
+}
+
+.input{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+
+.loginpage {
+  background-color: #9ECAD6; 
+  height: 100vh;            
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* Full page layout */
+.loginpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f3e7; /* soft cream background */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Login box */
+.box {
+  background-color: #fffaf0; /* light cream */
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 380px;
+  text-align: center;
+}
+
+/* Form layout */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Labels */
+.parent.label {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+.parent.input {
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.parent.input:focus {
+  border-color: #0078d7;
+}
+
+/* Optional login button styling (if you plan to add one) */
+button {
+  background-color: #0078d7;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.login-heading {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.login-btn {
+  background-color: #0078d7;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background-color: #005fa3;
+}
+
+/* Register link */
+.register-text {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #333;
+}
+
+.register-link {
+  color: #0078d7;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.register-link:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+

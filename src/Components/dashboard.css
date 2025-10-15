@@ -37,7 +37,9 @@
     color: #444;
 }
 
-.content
+.Icons{
+    border-bottom : 5px solid black;
+}
 
 .options{
     padding-top: .5em;
