@@ -8,6 +8,7 @@ import Student from './Components/SGList'
 import Login from './Components/Login'
 import Registration from './Components/register'
 // import Gregistration from './Components/gregister'
+import GuideRegistration from './Components/gregister'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,8 +18,9 @@ function App() {
       {/* <DashBoard/> */}
       {/* <Student/> */}
       {/* <Login/> */}
-      <Registration/>
+      {/* <Registration/> */}
       {/* <Gregistration/> */}
+      <GuideRegistration/>
     </>
   )
 }
